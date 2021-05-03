@@ -6,51 +6,58 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-
   <body>
 
-        <!-- <div class="nav">
-            <div class="navContainer">
-                <a id="1" class="navPanel">
-                    <img class="navButton" src="sound.jpg" alt="">
-                </a>
-                <a id="2" class="navPanel">
-                    <img class="navButton" src="comic.jpg" alt="">
-                </a>
-                <a id="3" class="navPanel">
-                    <img class="navButton" src="30mff.jpg" alt="">
-                </a>
-                <a id="4" class="navPanel">
-                    <img class="navButton" src="video.jpg" alt="">
-                </a>
-            </div>
-        </div> -->
+  <div class="icons" id ="icons">
 
-  <!-- <div class="sidenav">
-    <h3>Nav</h3>
-    <p>a</p>
-    <p>b</p>
-    <p>c</p>
-    <p>d</p>
-    <p>e</p>
-  </div> -->
+    <div class="aboutMe">
+      <span><img src="meicon.jpg"></span>
+        <div class="aboutMe-content">
+          <center><h3>About Me</h3></center>
+          <p> Welcome to my Website!</p>
+          <p>This is Alia Waleed, a sophomore doing a double major in Computer Science and Interactive Media.</p>
+          <p> On this website, you will be able to see the different projects that I have done this semester for my Comm Lab Class!</p>
+      </div>
+    </div>
 
+    <!-- The next 4 dics are for the assignment icons -->
+    <div class="navBtn" id="mff">
+      <img src="videoicon.jpg">
+    </div>
+
+    <div class="navBtn" id="bc">
+      <img src="bakingicon.jpg">
+    </div>
+
+    <div class="navBtn" id="mh">
+      <img src="mentalhealthicon.jpg">
+    </div>
+
+    <div class="navBtn" id="mm">
+      <img src="mudericon.jpg">
+    </div>
+  </div>
+
+    <!-- Progress bar on top of page -->
     <div class="progress"></div>
 
-    <div class="cube-wrap">
+    <!-- Full cube -->
+    <div class="cube-wrap" id="cube">
       <div class="cube">
-
-        <div class="side top">
-          <h4> Murder Mystery </h4>
-          <div>
-            <a href="https://github.com/aliawaleed/soundassignment" target="_blank">
-              <div class="panel">
-              <img src="sound.jpg" alt="HTML">
-            </div>
-            </a>
+        <!-- First side displayed with title, image, and documentation button -->
+        <div class="side front">
+          <h4> Morning Routine</h4>
+          <a href="https://aliawaleed.github.io/" target="_blank">
+            <div class="panel">
+            <img src="30mff.jpg" alt="HTML">
           </div>
+          </a>
+          <a href="https://github.com/aliawaleed/aliawaleed.github.io/blob/main/README.md" target="_blank">
+          <center><button type="button" class="button"> Documentation </button></center>
+        </a>
         </div>
 
+       <!-- Second side displayed with title, image, and documentation button -->
         <div class="side bottom">
           <div class="flipped">
            <h4> Mental Health Awareness</h4>
@@ -59,19 +66,13 @@
             <img src="comic.jpg" alt="HTML">
           </div>
           </a>
+          <a href="https://github.com/aayronaayush/comik/blob/master/README.md" target="_blank">
+          <center><button type="button" class="button"> Documentation </button></center>
+        </a>
           </div>
-
         </div>
 
-        <div class="side front">
-          <h4> 30 Minute Film Festival</h4>
-          <a href="https://aliawaleed.github.io/" target="_blank">
-            <div class="panel">
-            <img src="30mff.jpg" alt="HTML">
-          </div>
-          </a>
-        </div>
-
+        <!-- Third side displayed with title, image, and documentation button -->
         <div class="side back">
           <div class="flipped">
           <h4> Baking Cookies</h4>
@@ -80,18 +81,38 @@
             <img src="video.jpg" alt="HTML">
           </div>
           </a>
-          <p>text</p>
+          <a href="https://github.com/yk1932/yk1932.github.io/blob/main/recipe/README.md" target="_blank">
+          <center><button type="button" class="button"> Documentation </button></center>
+        </a>
           </div>
         </div>
 
-        <!-- <div class="side left">  </div>
-        <div class="side right"> </div> -->
+        <!-- Forth side displayed with title, image, and documentation button -->
+        <div class="side top">
+          <h4> Murder Mystery </h4>
+          <div>
+            <a href="https://aliawaleed.github.io/soundassignment/#" target="_blank">
+              <div class="panel">
+              <img src="sound.jpg" alt="HTML">
+            </div>
+            </a>
+            <a href="https://github.com/aliawaleed/soundassignment/blob/main/readme.md" target="_blank">
+            <center><button type="button" class="button"> Documentation </button></center>
+          </a>
+          </div>
+        </div>
+
+       <!-- The two below are not very relevant, the just exist to complete the square -->
+        <div class="side left">  </div>
+        <div class="side right"> </div>
 
       </div>
     </div>
+
+    <div class="instructions">
+      <h2> Scroll down to see the 4 sides of the cube or click on the assignment of you choice from the icons!</h2>
+      <div>
+
     <script src="script.js"> </script>
   </body>
 </html>
-
-
-<!-- <img src="me.jpg" alt="image" style="width:85%;"> -->
