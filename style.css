@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  min-height: 500vh;
+  min-height: 400vh;
   background-color: #ff67d8; /* background color at the top of the page */
   animation: body 1s linear; /* to change screen color*/
 }
@@ -116,7 +116,7 @@ h4{ /*titles within sides*/
 
 @keyframes cube {
   to {
-    transform: rotateX(675deg) rotateZ(0deg) rotateY(0deg); /*end position of cube, spin twice*/
+    transform: rotateX(270deg) rotateZ(0deg) rotateY(0deg); /*end position of cube, spin twice*/
   }
 }
 
